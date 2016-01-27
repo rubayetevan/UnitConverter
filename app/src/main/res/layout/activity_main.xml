@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.warriors.rubayet.unitconverter.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Unit Converter"
+            android:gravity="center_horizontal"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Please Select your desired catagory from below"
+            android:gravity="center_horizontal"
+            android:textSize="26sp"
+            android:textColor="@android:color/black"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Length"
+                android:background="@android:color/holo_orange_dark"
+                android:id="@+id/lengthButton"
+                android:onClick="LengthOnClick" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@android:color/holo_blue_dark"
+                android:text="Fuel Consumption"
+                android:id="@+id/fuelButton"
+                android:onClick="FuelConsumptionOnClick"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Volume"
+                android:background="@android:color/holo_green_light"
+                android:id="@+id/volumeButton"
+                android:onClick="VolumeOnClick"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Speed"
+                android:background="@android:color/holo_red_light"
+                android:id="@+id/speedButton"
+                android:onClick="SpeedOnClick"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Mass"
+                android:background="@android:color/holo_purple"
+                android:id="@+id/massButton"
+                android:onClick="MassOnClick"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Pressure"
+                android:background="@android:color/holo_red_light"
+                android:id="@+id/pressureButton"
+                android:onClick="PressureOnClick"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Temperature"
+                android:background="@android:color/holo_green_light"
+                android:id="@+id/temperatureButton"
+                android:onClick="TemperatureOnClick"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Energy"
+                android:background="@android:color/holo_blue_dark"
+                android:id="@+id/energyButton"
+                android:onClick="EnergyOnClick"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Currency"
+                android:background="@android:color/holo_orange_dark"
+                android:id="@+id/currencyButton"
+                android:onClick="CurrencyOnClick"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
